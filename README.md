@@ -1,4 +1,4 @@
-# lang scripts
+# language-scripts
 Set of scripts for language analysis
 
 ## f0.py
@@ -12,6 +12,7 @@ This script provides a utility to modify a given Praat TextGrid file. Specifical
 
 ## check_textgrids_word.py
 This script processes TextGrid files, which are commonly used in phonetics and linguistics to annotate speech. The main purpose of this script is to extract and print tokens that do not have exactly two occurrences in a specified tier.
+
 
 Copyright (c) 2023 K.I.
 
