@@ -1,12 +1,17 @@
+# lang scripts
 Set of scripts for language analysis
 
-f0.py: This script extracts the fundamental frequency (f0) values of specific labeled intervals (vowels or 'ん') from a given TextGrid file and audio (WAV) file. The extracted data is then written to a CSV file with details about each interval's start time, end time, and corresponding average f0 value.
+## f0.py
+This script extracts the fundamental frequency (f0) values of specific labeled intervals (vowels or 'ん') from a given TextGrid file and audio (WAV) file. The extracted data is then written to a CSV file with details about each interval's start time, end time, and corresponding average f0 value.
 
-f0_10ms.py: This script extracts the fundamental frequency (f0) values of specific labeled intervals (vowels or 'ん') from a given TextGrid file and audio (WAV) file. The extracted data is then written to a CSV file with details about each interval's start time, end time, and corresponding f0 value of each interval every 10 ms.
+## f0_10ms.py
+This script extracts the fundamental frequency (f0) values of specific labeled intervals (vowels or 'ん') from a given TextGrid file and audio (WAV) file. The extracted data is then written to a CSV file with details about each interval's start time, end time, and corresponding f0 value of each interval every 10 ms.
 
-number_word.py: This script provides a utility to modify a given Praat TextGrid file. Specifically, it iterates through the intervals in the 'token' tier and appends an index number to repeated tokens to differentiate them.
+## number_word.py
+This script provides a utility to modify a given Praat TextGrid file. Specifically, it iterates through the intervals in the 'token' tier and appends an index number to repeated tokens to differentiate them.
 
-check_textgrids_word.py: This script processes TextGrid files, which are commonly used in phonetics and linguistics to annotate speech. The main purpose of this script is to extract and print tokens that do not have exactly two occurrences in a specified tier.
+## check_textgrids_word.py
+This script processes TextGrid files, which are commonly used in phonetics and linguistics to annotate speech. The main purpose of this script is to extract and print tokens that do not have exactly two occurrences in a specified tier.
 
 Copyright (c) 2023 K.I.
 
