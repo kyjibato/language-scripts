@@ -13,8 +13,9 @@ This script provides a utility to modify a given Praat TextGrid file. Specifical
 ## check_textgrids_word.py
 This script processes TextGrid files, which are commonly used in phonetics and linguistics to annotate speech. The main purpose of this script is to extract and print tokens that do not have exactly two occurrences in a specified tier.
 
+# Copyright/ license
 Copyright (c) 2023 K.I.
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+These programs are free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
