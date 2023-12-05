@@ -1,5 +1,5 @@
 # language-scripts
-Set of scripts for language analysis. These scripts are used for my research and will be made public for the benefit of society.
+Set of scripts for language analysis. These scripts are used for my research.
 
 ## f0.py
 This script extracts the fundamental frequency (f0) values of specific labeled intervals (vowels or 'ん') from a given TextGrid file and audio (WAV) file. The extracted data is then written to a CSV file with details about each interval's start time, end time, and corresponding average f0 value.
