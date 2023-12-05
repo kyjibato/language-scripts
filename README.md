@@ -5,7 +5,7 @@ Set of scripts for language analysis. These scripts are used for my research.
 This script extracts the fundamental frequency (f0) values of specific labeled intervals (vowels or 'ん') from a given TextGrid file and audio (WAV) file. The extracted data is then written to a CSV file with details about each interval's start time, end time, and corresponding average f0 value.
 
 ## f0_10ms.py
-This script extracts the fundamental frequency (f0) values of specific labeled intervals (vowels or 'ん') from a given TextGrid file and audio (WAV) file. The extracted data is then written to a CSV file with details about each interval's start time, end time, and corresponding f0 value of each interval every 10 ms.
+This script extracts the fundamental frequency (f0) values of certain labeled intervals (vowels or 'ん') from a given TextGrid file and audio (WAV) file. The extracted data is then written to a CSV file with details of the f0 value of each interval every 10 ms.
 
 ## number_word.py
 This script provides a utility to modify a given Praat TextGrid file. Specifically, it iterates through the intervals in the 'token' tier and appends an index number to repeated tokens to differentiate them.
